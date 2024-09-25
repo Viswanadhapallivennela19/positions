@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <title>Whatsapp Layout</title>
+    <style>
+        /* *{
+            box-sizing: border-box;
+        } */
+        .section{
+            width: 300px;
+            height:80vh;
+            margin: auto;
+            background-image: url('smile.jpg');
+            background-position: center;
+            background-size: cover;
+            border:3px solid black;
+            border-radius: 20px;
+            position: relative;
+        }
+        .child1 img{
+            width: 50px;
+            height: 50px;
+            border-radius:50%;
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            width:300px;
+            background-color:rgb(37, 211, 102);
+            border-radius:17px 17px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:0 5px;
+            box-sizing: border-box;
+            margin-top:10px;
+        }
+        .child1{
+            display: flex;
+            align-items: center;      
+        }
+        .child1 i{
+          margin-right: 5px;
+        }
+        .i{
+            margin-left: 10px;
+        }
+        /* .class[fa-arrow-left]{
+            margin:0 3px;
+        }
+          */
+          section .child1{
+            width: 150px;
+          }
+          
+          footer{
+            
+            width: 300px;
+            height:6vh;
+            position:absolute;
+            bottom: 0;
+            background-color:white;
+            border-radius:0  0 18px 18px ;
+            display: flex;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.029);
+            justify-content: space-between;
+            align-items: center;
+            color:black;
+            box-sizing: border-box;
+          }
+          audio{
+             position:absolute;
+             top:0;
+             z-index:1;
+             opacity: 0.0;
+          }
+          main{
+            position: relative;
+            margin-top:66px;
+            overflow-y:scroll;
+            height:65vh;
+          }
+          main .left{
+            width: 130px;
+            text-align: left;
+            background-color: rgba(211, 211, 211, 0.599);
+            margin-left: 3px;
+            padding-left:7px;
+            border-radius: 0 10px 7px 7px;
+          }
+          main .right{
+            width:280px;
+            text-align:right;
+            
+          }
+          main .right span{
+            background-color: rgb(30,190,165);
+            margin-left: 3px;
+            padding:3px 3px 5px 7px;
+            border-radius: 7px 0px 10px 7px;
+          }
+          h3 span {
+            
+            background-color: whitesmoke; 
+            padding: 4px 9px;  
+            border-radius: 5px;  
+            box-shadow: 2px 2px 12px 5px rgba(0,0,0,0.1);  
+            font-size: 14px; 
+            font-weight: bold;  
+            color: #333;  
+          }
+          #feb1{
+            position: sticky; /* Makes the date span sticky when scrolling */
+            top: 5px; /* Will stick to 10px from the top of the parent container */ 
+          }
+          #feb2{
+            position: sticky; /* Makes the date span sticky when scrolling */
+            top: 5px; /* Will stick to 10px from the top of the parent container */ 
+          }
+          #feb3{
+            position: sticky; /* Makes the date span sticky when scrolling */
+            top: 5px; /* Will stick to 10px from the top of the parent container */ 
+          }
+          #feb4{
+            position: sticky; /* Makes the date span sticky when scrolling */
+            top: 5px; /* Will stick to 10px from the top of the parent container */ 
+          }
+          #feb5{
+            position: sticky; /* Makes the date span sticky when scrolling */
+            top: 5px; /* Will stick to 10px from the top of the parent container */ 
+          }
+          #feb6{
+            position: sticky; /* Makes the date span sticky when scrolling */
+            top: 5px; /* Will stick to 10px from the top of the parent container */ 
+          }
+
+          h3{
+            text-align: center;
+          }
+          .footer-inner{
+             margin:0 20px
+          }
+          .micro{
+            background-color: rgb(37, 211, 102);
+            border-radius: 50%;
+            padding: 8px;
+            color: white;
+          }
+          .bi-paperclip{
+              font-size: 19px;
+              font-weight: 900;
+          }
+           
+    </style>
+</head>
+<body>
+    <section class="section">
+      
+        <div class="header">
+          
+            <div class="child1">
+                <i class="fa-solid fa-arrow-left"></i>
+                <img src="profile.jpg" alt="profile image">
+                <h1>Chinni</h1>
+            </div>
+            <div class="child2">
+                <i class="fa-solid fa-video i"></i>
+                <i class="fa-solid fa-phone i"></i>
+                <i class="fa-solid fa-ellipsis-vertical i"></i>
+            </div>
+        </div>
+        <main>
+
+            <h3 id="feb1"> <span>1 Feb</span></h3>
+            <audio src="[iSongs.info] 04 - Nee Navvula.mp3#t=38" controls autoplay preload="auto"></audio>
+            <p class="left">Nee Navvula Thelladhanaanni <span style="color: red;">&#128522; &#128522; &#128522;</span></p>
+            <p class="left">Naagamalli Appadigindhi</p>
+            <p class="left">Ivvaddhu</p>
+            <p class="left">Ivvaddhu</p>
+            <p class="left">Ivvaddhu&#129392;&#129392;&#129392;…</p>
+            <p class="left">Nee Pedhavula </p>
+            <p class="left">Erradhanaanni…</p>
+            <p class="left"> Gorintaake Aruvadigindhi</p>
+            <p class="left">Ivvaddhu</p>
+            <p class="left">Ivvaddhu Ivvaddhu…</p>
+
+            <p class="left">Nee Kokanu Seethakoka</p>
+            <p class="left">Nee Palukulu Chilakala Mooka</p>
+            <p class="left">Nee Choopunu Chadralekha....</p>
+            <p class="left">Nee Kongunu Eruvaaka</p>
+            <p class="left">Badhulimmantu Brathimaalaayi</p>
+            <p class="left">Ivvaddhu Ivvaddhu Ivvaddhu....</p>
+            <p class="left">Asalivvaddhu Ivvaddhu Ivvaddhu...</p>
+            <p class="left">Nee Navvula Thelladhanaanni</p>
+            <p class="left">Naagamalli Appadigindhi</p>
+            <p class="left">Ivvaddhu Ivvaddhu Ivvaddhu</p>
+            <p class="left">Nee Buggalloni Siggulu Konni</p>
+            <p class="left">Moggalakinaa Ivvaddhu</p>
+            <p class="right"><span>Naa Vaipe </span></p>
+            <p class="right"><span>Moggina Neekaithe</span></p>
+            <p class="left">Avi Mottham Ivvachhu</p>
+
+
+            <h3 id="feb2"><span>2 Feb</span></h3>
+            <p class="left">Nee Baasalloni Thiyyadhanaanni...</p>
+            <p class="left">Telugu Baashake Ivvaddhu</p>
+            <p class="right"><span>Naakosam </span></p>
+            <p class="right"><span> Veche...  </span></p>
+            <p class="right"><span>Neekaithe...</span></p>
+            <p class="left">Adhi Raasigaa Ivvachhu...</p>
+            <p class="left">Bhakthi Shraddha Edhainaa</p>
+            <p class="left">Bhagavanthunike Ivvaddhu</p>
+            <p class="left">Bhakthi Shraddha Edhainaa</p>
+            <p class="left">Bhagavanthunike Ivvaddhu</p>
+            <p class="left">Neeke Mokke Naake Ivvachhoo… </p>
+            <p class="right"><span>Aa Aa AaAaa....</span></p>
+
+
+            <h3 id="feb3"><span>3 Feb</span></h3>
+            <p class="left">Nee Navvula Thelladhanaanni</p>
+            <p class="left">Naagamalli Appadigindhi</p>
+            <p class="left">Ivvaddhu Ivvaddhu Ivvaddhu...</p>
+            <p class="left">Nee Pedhavula Erradhanaanni</p>
+            <p class="left">Gorintaake Aruvadigindhi</p>
+            <p class="left">Ivvaddhu Ivvaddhu Ivvaddhu...</p>
+            <p class="left">Nee Andham Pogide Avakaashaanni</p>
+            <p class="left">Kavulaku Saitham Ivvaddhu</p>
+            <p class="right"><span>Mari Naakai</span></p>
+            <p class="right"><span>  Puttina  </span></p>
+            <p class="right"><span>  Neekaithe...</span></p>
+            <p class="left">Adhi Poorthiga Ivvachhu</p>
+            <h3 id="feb4"><span>4 Feb</span></h3>
+            <p class="left">Nee Bhaaram Mose Adrushttaanne</p>
+            <p class="left">Bhoomiki Saitham Ivvaddhu</p>
+            <p class="right"><span>Nenante </span></p>
+            <p class="right"><span>Mechhina </span></p>
+            <p class="right"><span>Neekaithe.....</span></p>
+            <p class="left">Adhi Ventane Ivvachhu</p>
+            <p class="left">Ninu Hatthukupoye Bhaagyaanni</p>
+            <p class="left">Nee Dhusthulakainaa Ivvaddhu</p>
+            <p class="left">Ninu Hatthukupoye Bhaagyaanni</p>
+            <p class="left">Nee Dhusthulakainaa Ivvaddhu</p>
+            <p class="left">Neekai Brathike Naake Ivvachhoo</p>
+            <p class="right"><span>Aa Aa AaAaa...</span></p>
+
+            <h3 id="feb5"><span>5 Feb</span></h3>
+            <p class="left">Nee Navvula Thelladhanaanni</p>
+            <p class="left">Naagamalli Appadigindhi</p>
+            <p class="left">Ivvaddhu Ivvaddhu Ivvaddhu...</p>
+            <p class="left">Nee Pedhavula Erradhanaanni</p>
+            <p class="left">Gorintaake Aruvadigindhi</p>
+            <p class="left">Ivvaddhu Ivvaddhu Ivvaddhu...</p>
+            
+            <p class="right"><span>Naa Vaakita </span></p>
+            <p class="right"><span>Muggulu Neeke</span></p>
+            <p class="right"><span>Naa Dhosita</span></p>
+            <p class="right"><span>Mallelu Neeke</span></p>
+            <h3 id="feb6"><span>6 Feb</span></h3>
+            <p class="right"><span>Naa Paapita</span></p>
+            <p class="right"><span>Velugulu Neeke</span></p>
+            <p class="right"><span>Naa Maapati</span></p>
+            <p class="right"><span>Merupulu Neeke</span></p>
+            <p class="right"><span>Praayam </span></p>
+            <p class="right"><span>Pranayam</span></p>
+            <p class="right"><span>Praanam</span></p>
+            <p class="right"><span>Neeke Ichhestha...</span></p>
+            <p class="right"><span>Ichhestha Ichhestha</span></p>
+            <p class="right"><span>Badhulichhesthaa</span></p>
+            <p class="right"><span>Ichhestha.... </span></p>
+            <p class="right"><span>Ichhestha&#128151;&#128151;&#128151;....</span></p>
+        </main>
+        <footer>
+          <i class="fa-regular fa-face-smile i"></i>
+          <h5>Message</h5>
+          <div class="footer-inner ">
+          <i class="bi bi-paperclip i"></i>
+          <i class="fa-solid fa-camera i"></i>
+          <i class="fa-solid fa-microphone i micro"></i>
+        </div>
+        </footer>
+  </section>
+</body>
+</html>
